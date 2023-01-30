@@ -15,6 +15,9 @@
 main {
     display: flex;
     justify-content: center;
+    background: url('../imagem/pexels-neosiam-601047.jpg') center;
+    background-size: cover;
+    height: 100vh;
 }
 
 .logo {
@@ -28,14 +31,22 @@ main {
 }
 
 .cadastro {
-    background-color: brown;
+    background-color: rgb(231, 230, 230);
     width: 70%;
+    height: 200px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+    padding-top: 10px;
+    
 }
 
 .container {
-    background-color: aqua;
+    background-color:rgb(234, 206, 248);
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
     display: flex;
     justify-content: center;
 }
