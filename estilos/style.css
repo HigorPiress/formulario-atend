@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;;
+}
+
+.logo img {
+   width: 150px;
+
+}
+
+.cadastro {
+    background-color: brown;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.container input {
+    margin-bottom: 10px;
+}
+
+ input:hover{
+    background-color: darkgray;
+}
+
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.botoes input {
+    font-weight: bold;
+}
+
+.redes img {
+    padding: 5px;
+}
